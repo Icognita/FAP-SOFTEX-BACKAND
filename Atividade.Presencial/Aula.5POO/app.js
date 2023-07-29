@@ -7,9 +7,9 @@ function incrementar(){
 }
 
 let contadorInverso=20;
-const contadorInvElemento=document.getElementById("decremento")
+const contadorInvE=document.getElementById("decremento")
 
 function decremento(){
     contadorInverso=contadorInverso-1
-    contadorInvElemento.innerHTML=contadorInverso
+    contadorElemento.innerHTML=contadorInverso
 }

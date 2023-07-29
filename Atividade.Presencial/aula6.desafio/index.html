@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div>
+        <h1>Salário Liquido</h1>
+        <label for="Number">Salário bruto</label>
+        <input id='salarioBruto'type="number"><br>
+        <label for="Number">Dependente</label>
+        <input id='dependente'type="number"><br>
+        <label for="Number">Previdência</label>
+        <input id='previdencia' type="number"><br>
+        <label for="Number">Outros descontos</label>
+        <input id='outrosDescontos' type="number">
+        <button onclick="salarioLiquido()"> Calcular Salário </button>
+
+
+
+    </div>
+    <br>
+    <div>
+        <label for="">Salário líquido</label>
+        <span id="res">0</span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -37,7 +37,7 @@ function calculadora(){
               resultado = numero1/numero2;
          }    
 
-         console.log('Resultado da:', resultado);
+         console.log('Resultado da Operação:', resultado);
 
 
     

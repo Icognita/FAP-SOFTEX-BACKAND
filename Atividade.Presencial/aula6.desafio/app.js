@@ -1,16 +1,22 @@
-var salario;
-var previdencia;
-var dependentes;
-var outros;
-var irrf;
-var inss ;
+var salario=0;
+var previdencia=0;
+var dependentes=0;
+var outros=0;
+var irrf=0;
+var inss=0 ;
 
 
 function salarioLiquido(){
     salario=document.getElementById('salarioBruto').value;
+
+
+    if(salario <= 1320){
+       return  inss = 0.075
+    }else if(salario <= 1320){
+        
+    }
     switch (salario) {
         case salario <= 1320:
-            inss = 0.075
             break;
         case salario > 1320 && salario <=2571.29:
         inss = 0.09
@@ -40,17 +46,16 @@ function salarioLiquido(){
         default:
             break;
     }
-    previdencia=parseFloat(document.getElementById('previdencia').value);
+    previdencia=(document.getElementById('previdencia').value);
     
     dependentes=document.getElementById('dependente').value;
 
-    outros=parseFloat(document.getElementById('outrosDescontos')).value;
+    outros=(document.getElementById('outrosDescontos')).value;
 
     novoSalario=salario;
     
 
-    Document.getElementById('res').innerHTML= novoSalario;
+    document.getElementById('res').innerHTML= novoSalario;
 
 }
 
-salarioLiquido();

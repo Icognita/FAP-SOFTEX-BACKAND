@@ -20,21 +20,23 @@
 
        }else if(!(anoNacimeto)){
          throw new Error('Ano diferente do esperado')
-         
+       
        }
-      }
+      
       let anoAtual=2023;
       let idade=anoAtual-anoNacimeto;
 
       try {
-         console.log("Nome completo: " +nomeCompleto);
+         console.log("Olá : " +nomeCompleto);
          console.log("Idade em "+ +anoAtual + ":" + idade);
+         CalcularIdade();
+    
          
       } catch (error) {
-         console.log(error," ano invalido");
+         console.log(Error.mensagen," Ano invalido");
          
       }
-
+   }
     }
     CalcularIdade()
  

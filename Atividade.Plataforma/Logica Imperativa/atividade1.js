@@ -21,7 +21,7 @@ let nome = [
     " Frederico",
     "Maria",
     "Luiza",
-    "Patricia", "\n"
+    "Patricia", 
 ];
 let idade = [
     10,
@@ -48,35 +48,34 @@ let cor = [
     "Branco"
 ]
 
-console.log("Lista de Nomes ","\n" , nome, "Lista de Idade","\n",idade ,"\n", "lista de cor ","\n",cor);
+console.log("Lista de Nomes:","\n" , nome, "Lista de Idade:","\n",idade ,"\n", "lista de cor:","\n",cor);
 
-nome[3]="Mirian";
-idade[3]= 25
-cor[3]="Amarelo";
+nome.splice(3,1,"Mirian")
+idade.splice(3,1,25)
+cor.splice(3,1,"Branco")
 
-console.log("Seu nome é  ", nome[3],"\n","Sua idade é   ",idade[5],"\n", "Sua cor preferida é  ",cor[6]);
+console.log("Seu nome na posição [3]----> ", nome[3],"\n","Sua idade na posição[3]---->",idade[3],"\n", "Sua cor preferida na posição[3]----> ",cor[6]);
 
 
 console.log( "Lista com Nomes ,Idade e Cor alterada","\n", nome,"\n" ,idade ,"\n" , cor);
 
 
 /**
- * saida do terminal
- * [Running] node "c:\Users\miria\Desktop\FAP.Softex.BackAnd\FAP-SOFTEX-BACKAND-1\Atividade.Plataforma\Logica Imperativa\atividade1.js"
-Lista de Nomes  
+ * Saída
+ * 
+ * Lista de Nomes: 
  [
   'Maria',      'João',
   'Pedro',      'Gustavo',
   'Eduardo',    'Joaquim',
   ' Frederico', 'Maria',
-  'Luiza',      'Patricia',
-  '\n'
-] Lista de Idade 
+  'Luiza',      'Patricia'
+] Lista de Idade: 
  [
   10, 20, 30, 50, 13,
   25, 38, 63, 18, 25
 ] 
- lista de cor  
+ lista de cor: 
  [
   'Azul',    'Roxa',
   'Amarelo', 'Verde',
@@ -84,17 +83,17 @@ Lista de Nomes
   'Preto',   'Vermelho',
   'Laranja', 'Branco'
 ]
-Seu nome é   Mirian 
- Sua idade é    25 
- Sua cor preferida é   Preto
-Lista com Nomes ,Idade e Cor alterada 
+Seu nome na posição [3]---->  Mirian 
+ Sua idade na posição[3]----> 25 
+ Sua cor preferida na posição[3]---->  Preto
+
+Lista com Nomes ,Idades e Cor alteradas 
  [
   'Maria',      'João',
   'Pedro',      'Mirian',
   'Eduardo',    'Joaquim',
   ' Frederico', 'Maria',
-  'Luiza',      'Patricia',
-  '\n'
+  'Luiza',      'Patricia'
 ] 
  [
   10, 20, 30, 25, 13,
@@ -102,7 +101,7 @@ Lista com Nomes ,Idade e Cor alterada
 ] 
  [
   'Azul',    'Roxa',
-  'Amarelo', 'Amarelo',
+  'Amarelo', 'Branco',
   'Cinza',   'Rosa',
   'Preto',   'Vermelho',
   'Laranja', 'Branco'

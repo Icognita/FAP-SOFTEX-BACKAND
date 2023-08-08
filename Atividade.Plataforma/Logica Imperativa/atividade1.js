@@ -54,7 +54,7 @@ nome.splice(3,1,"Mirian")
 idade.splice(3,1,25)
 cor.splice(3,1,"Branco")
 
-console.log("Seu nome na posição [3]----> ", nome[3],"\n","Sua idade na posição[3]---->",idade[3],"\n", "Sua cor preferida na posição[3]----> ",cor[6]);
+console.log("Seu nome na posição [3]----> ", nome[3],"\n","Sua idade na posição[3]---->",idade[3],"\n", "Sua cor preferida na posição[3]----> ",cor[3]);
 
 
 console.log( "Lista com Nomes ,Idade e Cor alterada","\n", nome,"\n" ,idade ,"\n" , cor);

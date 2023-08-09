@@ -6,19 +6,24 @@
 
 
  let tipoAnimal=[
-    ["Vaca", "Mamífero",5],
-    ["Cachorro", "Canino", 3],
-    ["Leão", "Felino", 9],
-    ["Gato", "Felino", 2],
-];
+    ["Vaca","mimosa", "Mamífero",5],
+    ["Cachorro","chola", "Canino", 3],
+    ["Leão","simbá", "Felino", 9],
+    ["Gato","bichano" ,"Felino", 2],
+  ];
+function matrizAnmal(){
+    for(let animal=0; animal<tipoAnimal.length; animal++){
+        for(let dadosAnimais=0; dadosAnimais<tipoAnimal[animal].length;dadosAnimais++){
+            console.log(`${animal} ${tipoAnimal[animal]},${dadosAnimais}\n `);
+            break
+            }
+            }
+        }
+        matrizAnmal()
+
+
 
 // tamanho
-for(let animal=0; animal<tipoAnimal.length; animal++){
-    for(let dadosAnimais=0; dadosAnimais<tipoAnimal[animal].length;dadosAnimais++){
-        console.log(`${animal} ${tipoAnimal[animal]},${dadosAnimais}\n `);
-        break
-        }
-        }
 
         /*
         

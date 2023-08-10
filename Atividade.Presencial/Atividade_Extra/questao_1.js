@@ -28,12 +28,5 @@ const aluno1=new Aluno(2530, "Mirian",9.5,7.0,9.0)
 console.log(`Media  ${aluno1.nome}:${aluno1.media().toFixed(2)}`)
 console.log(`Nota necessaria para a prova final: ${aluno1.notaFinal().toFixed(2)}`);
 
-/*
-SAÍDA
-Presencial\Atividade_Extra\questao_1.js"
-Media Mirian:25.13
-Nota necessaria para a prova final: 0.00
 
-[Done] exited with code=0 in 1.972 seconds
-*/
 

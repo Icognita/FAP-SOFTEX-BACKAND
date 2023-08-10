@@ -31,10 +31,12 @@ console.log(`Nota necessaria para ser aprovado por  final: ${aluno1.notaFinal().
 
 /*
 SAÍDA
-Presencial\Atividade_Extra\questao_1.js"
-Media da Mirian:25.13
-Nota necessaria para a prova final: 0.00
 
-[Done] exited with code=0 in 1.972 seconds
+[Done] exited with code=0 in 2.849 seconds
+
+Media de Mirian:9.00
+Nota necessaria para ser aprovado por  final: 0.00
+
+[Done] exited with code=0 in 4.11 seconds
 */
 

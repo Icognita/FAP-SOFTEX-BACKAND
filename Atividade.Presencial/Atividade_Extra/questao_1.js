@@ -7,14 +7,15 @@ class  Aluno{
         this.notaTrabalho=notaTrabalho;
     }
     media(){
-    const media_Prova_Trabalho= ((this.notaProva_1+this.notaProva_2)*2.5+this.notaTrabalho)/2
-    return media_Prova_Trabalho;
+    const media_Prova= (this.notaProva_1+this.notaProva_2)/2;
+    const mediaFinal=(media_Prova*2.5+this.notaTrabalho*2)/5;
+    return mediaFinal;
     }
 
     notaFinal(){  
         let media= this.media();
-        if(media<6){
-          return Math.max(0,6-media);
+        if(media<7){
+          return Math.max(7-media);
         }else{
             return 0;
 
@@ -24,9 +25,21 @@ class  Aluno{
 
     }
 }
-const aluno1=new Aluno(2530, "Mirian",9.5,7.0,9.0)
-console.log(`Media  ${aluno1.nome}:${aluno1.media().toFixed(2)}`)
-console.log(`Nota necessaria para a prova final: ${aluno1.notaFinal().toFixed(2)}`);
+const aluno1=new Aluno(2530, "Mirian",10,10,10)
+console.log(`Media de ${aluno1.nome}:${aluno1.media().toFixed(2)}`)
+console.log(`Nota necessaria para ser aprovado por  final: ${aluno1.notaFinal().toFixed(2)}`);
+
+/*
+SAÍDA
+
+[Done] exited with code=0 in 2.849 seconds
+
+Media de Mirian:9.00
+Nota necessaria para ser aprovado por  final: 0.00
+
+[Done] exited with code=0 in 4.11 seconds
+*/
+
 
 
 

@@ -18,7 +18,7 @@ numbers.pop()
 console.log(numbers);
 //• Remova os numeros 5,8,9
 
-numbers.splice()
+numbers.splice(-5,4)
     
 console.log(numbers);
 //• Adicione os números [50,60,70] ao final do array

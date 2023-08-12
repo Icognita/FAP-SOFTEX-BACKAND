@@ -9,6 +9,7 @@ class  Aluno{
     media(){
     const media_Prova= (this.notaProva_1+this.notaProva_2)/2;
     const mediaFinal=(media_Prova*2.5+this.notaTrabalho*2)/5;
+    //  dividido pela soma dos pesos da prova e do trabalho que ared
     return mediaFinal;
     }
 

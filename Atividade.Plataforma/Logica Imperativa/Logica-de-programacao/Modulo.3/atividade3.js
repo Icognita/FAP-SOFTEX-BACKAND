@@ -16,7 +16,7 @@ let numeros=[3,7,9,1,0];
    * 
  * Lista- Não há uma ordem para remover na lista pode percorer a
  *  lista até alcançar  a posição desejada.
- * logo a sequencia poderá ser: [0,1,9,7,3] ou quaquer posição que melho convier.
+ * logo a sequencia poderá ser: [0,1,9,7,3] ou quaquer posição desejada.
  *
  *  Pilha- Ordem de remorção é basiada no princípio LIFO (Last In, First Out), ou seja, o último 
  * elemento inserido é o primeiro a ser removido;

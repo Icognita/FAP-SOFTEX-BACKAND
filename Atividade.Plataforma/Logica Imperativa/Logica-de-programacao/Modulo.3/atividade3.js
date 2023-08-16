@@ -1,44 +1,32 @@
-// adiciona o elementop no final da fila
-//  const fila=[];
+/** atividade 
+ * Considere o array [3, 7, 9, 1, 0].
 
-//  function enfileira(element){
-//     fila.push(element);
-// }
+O primeiro elemento inserido foi o 3, o segundo foi o 7 e assim por diante, seguindo a ordem.
+
+Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas regras de operações, 
+qual seria a sequência dos números removidos em cada uma delas para esvaziá-las
+ completamente utilizando o array mencionado?
+ */
+
+let numeros=[3,7,9,1,0];
+/** 
+ * Fila-  Ordem de remorção é basiada no princípi FIFO(Firs in First out) 
+   * Ou seja o primeiro que entra é o primeiro que saí.
+   * logo a sequencia de remoção é [3,7,9,1,0]
+   * 
+ * Lista- Não há uma ordem para remover na lista pode percorer a
+ *  lista até alcançar  a posição desejada.
+ * logo a sequencia poderá ser: [0,1,9,7,3] ou quaquer posição que melho convier.
+ *
+ *  Pilha- Ordem de remorção é basiada no princípio LIFO (Last In, First Out), ou seja, o último 
+ * elemento inserido é o primeiro a ser removido;
+ * logo  a sequecia será: [0,1,9,7,3];
+ */
 
 
-// enfileira(10);
 
-//   enfileira(20)
-//     enfileira(30)
-// console.log(fila)
-// class
 
-// remove o primeiro elemento da fila na posiçãp 0
- fila=[10,20,30];
 
-function isEmpty(){
 
-  return fila.length===0;
-}
 
-// function desenfileirar(){
-//    if(isEmpty()){
-//     return null;
-//    }
-//    return fila.shift();
-// }
-// desenfileirar()
-// console.log( "Tamanho da fila após desenfileirar:", fila.length);
 
-//Essa função visa obter o elemento que está na frente da fila,
-// mas sem removê-lo. Essa operação permite verificar qual é o elemento que será processado a seguir.
- //(front)
- function frente(){
-  if(isEmpty()){
-    return null;// retorna null se a fila estiver vazia
-  }
-  return fila[0];
- }
- frente()
- // Saída tamanho da fila : 3
- console.log("Tamanho da fila: ", fila.length);

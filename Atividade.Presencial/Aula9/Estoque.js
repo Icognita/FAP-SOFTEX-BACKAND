@@ -53,7 +53,7 @@ class Estoque {
     });
   }
 }
-// CRUD:
+// CRUD: setando
 const estoque = new Estoque();
 
 estoque.adicionarProduto(new Produto(1, 'Notebook', 3000, 10));

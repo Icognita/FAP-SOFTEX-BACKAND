@@ -2,7 +2,7 @@
 
  const itemDoNUmeros= numeros.forEach(numeros => {
      if(numeros %2==0){
-        console.log(numeros,"é para");
+        console.log(numeros,"é par");
      }else{
         console.log(numeros,"é ímpar")
      }

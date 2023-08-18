@@ -9,7 +9,7 @@ Codifique a solução mais eficiente para buscar o número 20 no array.
 */
 
 //A melhor forma de busca que encontrei foi a lienar, pois ele vai  analisando cada elemento 
-// da coleção até encontrar o  valor desejado.
+// da coleção até encontrar o  valor desejado. Já a binária teria que ordenar,  pois ele ela exige que e alista esteja ordenada.
 
 
 

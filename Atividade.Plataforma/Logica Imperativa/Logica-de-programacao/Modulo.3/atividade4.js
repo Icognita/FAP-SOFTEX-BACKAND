@@ -48,10 +48,14 @@ function familia() {
     
   }
   const lista= familia();
+
+
+
   console.log(lista.length());
   lista.adicionaPessoa("Lampião", 25, null)
-  lista.adicionaPessoa("Maria Bonita",35,)
+  lista.adicionaPessoa("Maria Bonita",35,"Joaquim")
   lista.adicionaPessoa("Joaquim",8,)
+
 
 
 

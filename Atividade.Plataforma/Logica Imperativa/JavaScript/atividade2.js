@@ -35,6 +35,8 @@ console.log(myBigInt_1);
 let myBigInt_2=1955555566266n;
 console.log(myBigInt_2);
 
+console.log("******Symbol******");
+
 let mySymbol = Symbol("unico e imutável");
 console.log(mySymbol);
 let mySymbo2=Symbol();

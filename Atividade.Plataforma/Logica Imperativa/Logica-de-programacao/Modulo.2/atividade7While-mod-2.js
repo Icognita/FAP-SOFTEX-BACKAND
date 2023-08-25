@@ -35,6 +35,7 @@ function calculadora(){
               resultado = numero1 * numero2;
          }else if (operacao ===4){
               resultado = numero1/numero2;
+              
          }    
 
          console.log('Resultado da Operação:', resultado);

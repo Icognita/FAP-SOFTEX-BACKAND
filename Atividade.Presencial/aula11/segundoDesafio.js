@@ -10,10 +10,10 @@ function simularInvestimento(){
     const tempoMeses=tempContribuicao *12;
     const taxaMeses=Math.pow(1+ taxaDejuros,tempoMeses)-1;
     const resultadoInvestimento=mensalidade*(taxaMeses/taxaDejuros);
+    const resul = document.querySelector('#resultado1');
 
 
-
-document.querySelector('resultado').innerHTML = `Olá ${nome}, juntando R$${mensalidade.toFixed(2)}
+resul.innerHTML = `Olá ${nome}, juntando R$${mensalidade.toFixed(2)}
      todo mês, você terá R$${resultadoInvestimento.toFixed(2)} em ${tempContribuicao} anos.`;
 }
 

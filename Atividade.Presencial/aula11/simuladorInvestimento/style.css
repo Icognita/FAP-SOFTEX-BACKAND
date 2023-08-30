@@ -1,0 +1,11 @@
+.form{
+    display: flex;
+    align-content: center;
+    background-color: blueviolet;
+    margin-top: 10vh;
+    margin-left: 35vh;
+
+}
+.fil{
+    box-shadow: 20px;
+}

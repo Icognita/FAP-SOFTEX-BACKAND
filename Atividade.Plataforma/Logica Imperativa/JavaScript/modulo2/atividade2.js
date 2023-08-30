@@ -3,7 +3,7 @@
      let numero1=parseInt(prompt("Digite o primeiro número "));
      let numero2 =parseInt(prompt("Digite o segundo número "));
      let operacao=parseInt(prompt("Digite a operaçao desejada: 1-soma | 2-Subtração | 3-Multiplicação | 4-Divisao  "));
-     let sobra=numero1%numero2;
+
      
 function calculadora(numero1, numero2, operacao,sobra){
 
@@ -17,6 +17,7 @@ function calculadora(numero1, numero2, operacao,sobra){
           return numero1/numero2
         } 
     }
+    let sobra=numero1%numero2;
     let resultado= calculadora(numero1, numero2, operacao);     
     if(operacao==4){
         

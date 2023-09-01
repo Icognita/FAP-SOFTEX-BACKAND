@@ -17,7 +17,7 @@ const total=soma(10,20);
 console.log(total);
 /**
  * 
- * Arroe function
+ * Arrow function
  */
  const somar=(numero1, numero2,)=>{ return numero1+numero2} 
  const resultado =somar(10,20)

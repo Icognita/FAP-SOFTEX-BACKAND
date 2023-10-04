@@ -10,7 +10,7 @@ const app = express()
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended:true}))
 
-// concção com o banco
+// conexão com o banco
   const db= mysql2.createConnection({
     host:process.env.db_HOST,
     user:process.env.db_USER,

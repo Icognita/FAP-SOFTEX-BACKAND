@@ -5,3 +5,4 @@ export  interface Computador {
     getType(): string;
     toString(): string;
   } 
+  export default Computador

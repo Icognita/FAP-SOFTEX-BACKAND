@@ -1,0 +1,1 @@
+import Computador from './interfaces';

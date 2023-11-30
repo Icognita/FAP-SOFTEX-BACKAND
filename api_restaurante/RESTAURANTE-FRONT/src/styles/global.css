@@ -361,7 +361,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    position: static;
     left: 0;
     right: 0;
     bottom: 0;

@@ -1,3 +1,3 @@
-# Curso de Fast-Sofitex.
+# Curso de Fast-Sofitex. Back-end Node.js
 
-##Todas as aulas e miniprojetos e exercicios.
+##Todas as aulas miniprojetos e exercicios.
